@@ -1,0 +1,28 @@
+<Module>
+<Content><![CDATA[
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>House Of Hazards</title>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/houseofhazards/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/houseofhazards/TemplateData/style.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/houseofhazards/js/unity-mod.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/houseofhazards/Build/UnityProgress.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/houseofhazards/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/agentsgams/projects@master/houseofhazards/Build/HouseOfHazardsTwoPlayerGames.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body style="overflow:hidden; margin:0; padding:0;">
+    <div class="webgl-content" style="position: absolute; width: 100%; height: 100%; margin: 0px; padding:0px;">
+      <div id="gameContainer" style="width: 100%; height: 100%; margin: 0px; padding:0px;"></div>
+    </div>
+  </body>
+</html>
+
+]]></Content>
+</Module>
