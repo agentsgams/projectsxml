@@ -24,12 +24,11 @@
     <meta name="og:title" content="Bitcoin Clicker">
     <meta name="og:description" content="A clicker game where you can get virtual Bitcoins by clicking!">
     <meta name="og:image" content="https://raw.githubusercontent.com/julianYaman/bitcoin-clicker/master/images/bitcoin-8bit.png">
-    <meta name="og:url" content="https://julianyaman.github.io/bitcoin-clicker/index.html">
     <meta name="og:site_name" content="Bitcoin Clicker">
     <meta name="og:type" content="website">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="https://julianyaman.github.io/bitcoin-clicker/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/stylesheets/style.css">
 </head>
 <body>
     <div class="gameFullContent">
@@ -138,8 +137,8 @@
             </ul>
         </div>
     </div>
-    <script src="https://julianyaman.github.io/bitcoin-clicker/lib/jquery-3.3.1.min.js"></script>
-    <script async src="https://julianyaman.github.io/bitcoin-clicker/scripts/app.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/lib/jquery-3.3.1.min.js"></script>
+    <script async src="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/scripts/app.js" type="text/javascript"></script>
 </body>
 </html>
 ]]></Content>
