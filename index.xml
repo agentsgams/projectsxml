@@ -1,0 +1,129 @@
+<Module>
+<ModulePrefs title="agentsgams"/>
+<Content type="html">
+<![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- XML VERSION OF AGENTS GAMS, MINIFIED FOR YOUR PURPOSES -->
+    <!-- Changeable Stuff -->
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/agentsgams/agentsgams@master/assets/img/favicon.png" />
+    <title>agents gams (xml)</title>
+    <!-- Meta for Google, etc -->
+    <meta name="keywords" content="agentsgams, agents gams" />
+    <meta property="og:title" content="agents gams" />
+    <meta property="og:description" content="Welcome, welcome to agents gams. It's safe here." />
+    <meta name="description" content="Welcome, welcome to agents gams. It's safe here." />
+    <meta property="og:site_name" content="agentsgams.github.io" />
+    <meta name="author" content="agentn86" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Styling -->
+    <link href="https://cdn.jsdelivr.net/gh/agentsgams/agentsgams@master/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/agentsgams/agentsgams@master/assets/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+<body data-theme="dark">
+    <div class=topnav><a onclick="home()" class="active agentsgamsicon" id="link_home" style="cursor: pointer;">agents gams xml<span class=blink>_</span></a><div class=dropdown><button class=dropbtn>Extras <i aria-hidden=true class="fa fa-caret-down"></i></button><div class=dropdown-content><a href=https://discord.gg/AMAA6tkysF target=_blank>Discord Server <i aria-hidden=true class="fa fa-external-link"></i></a> <a href="https://docs.google.com/document/d/1Tm8bdScREyatCB3DpfBX5u2tGwN1bHy0lrp13Xg43x4/edit?usp=sharing"target=_blank>Backup List <i aria-hidden=true class="fa fa-external-link"></i></a> <a href=https://forms.gle/wZHp65EoP1synuyXA target=_blank>Request a Project <i aria-hidden=true class="fa fa-external-link"></i></a></div></div><a onclick="leaderboard()" style="cursor:pointer;" id="link_leaderboard" class=right>Leaderboard</a><a onclick="projects()" style="cursor: pointer;" id="link_projects" class=right>Projects</a></div>
+    <div id="WELCOME">
+        <div class="container"><h1>agents gams xml<span class="blink">_</span></h1><p>Welcome. Welcome to <b>agents gams</b><a id="speechbtn" style="cursor:pointer">...</a><span style="display:block;opacity:0;color:gray;cursor:default" id="speech"><i>&nbsp;&nbsp;You have chosen, or been chosen, to relocate to one of our finest remaining project sites. I thought so much of agents gams that I elected to establish my Administration here, in the Hub World so thoughtfully provided by Our Benefactors. I have been proud to call agents gams my home. And so, whether you are here to stay, or passing through on your way to parts unknown, welcome to agents gams. It's safer here.</i></span></p><p>A simple, easily assessible project site curated by one person. <b style="color:#eee8aa">You are using the XML version, meaning some things are trimmed down or removed.</b></p><button id="enter" onclick="projects()">Welcome in...</button>&nbsp;<a href="https://discord.gg/AMAA6tkysF"><button id="disc">Discord Server</button></a></div><a id="credits">Credits</a><a id="debug">Debug</a><dialog id="creditsDialog"><h1 style="font-size:30px">credits<span class="blink">_</span></h1><a href="https://github.com/agentN86">@agentn86</a>: curator, owner of website<br><h3>projects taken from...</h3><p><a href="https://gitlab.com/3kh0/3kh0-assets">@3kho's Assets</a>,<a href="https://github.com/ciscoHA/unblocked-list">@ciscoHA's list</a>, and<a href="https://github.com/ucbg?tab=repositories">@ucbg's repositories</a>. I would thank these people personally for the epic work that they do!</p><p>As well these projects come from websites like Poki and Flash websites.</p><p>&copy; 2023-2025 agentn86<a href="https://github.com/agentsgams/agentsgams/">(github)</a></p><br><br><br><button id="close" autofocus>Close (ESC)</button></dialog><script src="https://cdn.jsdelivr.net/gh/agentsgams/agentsgams@master/assets/js/welcome.js" type="module"></script><script src="https://cdn.jsdelivr.net/gh/agentsgams/agentsgams@master/assets/js/inject.js"></script>
+    </div>
+    <div id="LEADERBOARD" style="display:none;">
+        <center><br>leaderboard coming soon, sorry about that<br><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAA2NJREFUeF7tmuFugzAMhMv7P3QnpiFllh074YBLe/vXERxzX85OaLeX/qgU2KiyUTIvASFbBAIiIGQKkKUjhwgImQJk6cghAkKmAFk6coiAkClAlo4cIiBkCpClI4cUgLzf7/e2bbdodcskhWemHiIgZHgEREDIFCBLRw4REDIFyNLxHLL/z6aJ2Ilpl1WAfwDxILS3C0hBTMSQHggEhH9QEQl/coyrSlOkmUpWZzVZGGg3eFMLSADkCRh7Kl8LpBXcrvzj2vF/nUNuaErtzqkFYmHsqQhIAcioSHZ8+9luazPHFNKbHrJsyZoB8luj/16jWyDtNU/N0flmiSwJpCJOr/S013q9pBW1MucshOXPIVH9P+r9sdqjMuWVqEzw7DoCxpK7rF6p8Va+bdj7Z88VmeC969m9I7CWK1kZkFbwqDkfAo3srrwSaB05IjztSd0ewDyxolrunRcq90cNPGv0XgnMNgOjkB5ziAXhlRb7MD1BRppzD0jUf7z+hIbxSA+JQGT13zugWQhZLa9Ay8ZEpWvUCRQlKxPdlgyvB/TqPgIIStjZOLeVLK/ee29Psy1tBsQrI9mqnxXvivtuA5L1g+N6Jp4FFvUVO98dr84RgGiBRAJWnYYQ54kYlwDJarnXoKOtbUWUynyVOAxj4ECquxDkyVdAgqVUhdFzyEiMtu+s0iMyF0IckjViL4loVSNjZQ/PeP0UkBnxeqvanlOqq/6rS1Z00h5dbV5psgfD6quJmTI3mu9d44cdglyNs44YKYF3CYmaZxgIamJ7EKyWp2h+5EJBP+NIvMeBjCTbGysgKCVBcQQEJCQqjICglATFERCQkKgwAoJSEhRHQEBCosIICEpJUBwBAQmJCiMgKCVBcQQEJCQqjICglATFERCQkKgwAoJSEhRHQEBCosIICEpJQJyv/sYQoB88xKe4YxfmI76gEhD4Gj8XUEDO6Qe9+5P6x5Ila/anQtBVcGGwJXvImR/oXaglJPSSQCBPThpEQMjACIiAkClAlo4cIiBkCpClI4cICJkCZOnIIQJCpgBZOnKIgJApQJaOHCIgZAqQpSOHCAiZAmTpyCECQqYAWTpyiICQKUCWjhwiIGQKkKUjhwgImQJk6cghAkKmAFk6coiAkClAlo4cIiBkCpCl8wOaibiDkF3mcAAAAABJRU5ErkJggg=="></center>
+    </div>
+    <div id="PROJECTS" style="display:none;">
+        <div style="display: flex; flex-direction: column; align-items: center; height: 100%;">
+            <h1 style="text-align: center;">Projects</h1>
+            <p><b style="color: red;">Red:</b> Not FF, <b style="color: blue;">Blue:</b> Not working, <b style="color: green;">Green:</b> Requires Download, <b style="color: pink;">Pink:</b> Made by Agent</p>
+            <button style="cursor: pointer;" id="loadpro">Load Projects (for performance)</button>
+            <div style="text-align: left; width: 100%;">
+                <script>function openWindow(e,t,n,o,c){console.log("Opening window with:", e, t, n, o, c);if("Eaglercraft"!=t){var i=window.open();i.document.body.style.margin="0",i.document.body.style.height="100vh",i.document.title="Redirecting...";var d=i.document.createElement("iframe");if(d.style.border="none",d.style.width="100%",d.style.height="100%",d.style.margin="0",1==n){var l=c+o;d.src=l}else d.src=e;i.document.body.appendChild(d)}else location.replace(e)}</script>
+                <div id="projects" style="margin: 20px;">
+                    
+                </div>
+            </div>
+            <br><br>
+            <center>
+                <table>
+                    <tr>
+                        <td><center><button onclick="page('n')" style="cursor:pointer;" title="Previous page"><</button>&nbsp;</center></td>
+                        <td><center>Page <span id="page">1</span>/<span id="pagemax">3</span> &nbsp;</center></td>
+                        <td><center><button onclick="page('p')" style="cursor:pointer;" title="Next page">></button></center></td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+    </div>
+    <script>
+        function home() {
+            document.getElementById('LEADERBOARD').style.display = "none";
+            document.getElementById('link_leaderboard').classList.remove("active");
+            document.getElementById('WELCOME').style.display = "block";
+            document.getElementById('link_home').classList.add("active");
+            document.getElementById('PROJECTS').style.display = "none";
+            document.getElementById('link_projects').classList.remove("active");
+            console.log("%cSUCCESS:%c Opened main page successfully.", "font-weight: bold; color: palegreen;", "font-weight: normal; color: white;")
+        }
+
+        function leaderboard() {
+            document.getElementById('LEADERBOARD').style.display = "block";
+            document.getElementById('link_leaderboard').classList.add("active");
+            document.getElementById('WELCOME').style.display = "none";
+            document.getElementById('link_home').classList.remove("active");
+            document.getElementById('PROJECTS').style.display = "none";
+            document.getElementById('link_projects').classList.remove("active");
+            console.log("%cSUCCESS:%c Opened leaderboard successfully.", "font-weight: bold; color: palegreen;", "font-weight: normal; color: white;")
+        }
+
+        function projects() {
+            document.getElementById('LEADERBOARD').style.display = "none";
+            document.getElementById('link_leaderboard').classList.remove("active");
+            document.getElementById('WELCOME').style.display = "none";
+            document.getElementById('link_home').classList.remove("active");
+            document.getElementById('PROJECTS').style.display = "block";
+            document.getElementById('link_projects').classList.add("active");
+        }
+
+        document.getElementById('loadpro').onclick = function() {
+            document.getElementById('loadpro').style.display = "none";
+            fetch('https://cdn.jsdelivr.net/gh/agentsgams/agentsgams@master/assets/json/projects.json')
+                .then((res) => res.json())
+                .then((data) => {
+                const projects = data[1] /* replace "1" to be page number idiot */;
+                if (!projects) { console.log("%cERROR:%c No projects could be found for this page.", "font-weight: bold; color: lightcoral;", "font-weight: normal; color: white;"); return; };
+
+                projects.forEach((project) => {
+                    const { game, formal, description, image, color, xml, link } = project;
+                    const projectDiv=document.createElement("div");projectDiv.style.display="flex",projectDiv.style.alignItems="top";const gameLink=document.createElement("a");gameLink.name=game,gameLink.style.cursor="pointer";const projectImage=document.createElement("img");projectImage.src=image,projectImage.alt=game,projectImage.width=100,projectImage.style.border=`3px solid ${color}`,projectImage.style.cursor="pointer";const titleSpan=document.createElement("span");titleSpan.className="title",titleSpan.innerHTML=`&nbsp;&nbsp;<u><a style="color: white; cursor: pointer;">${formal}</a></u>`;const descriptionParagraph=document.createElement("p1");descriptionParagraph.innerHTML=`&nbsp;${description}`,projectDiv.appendChild(gameLink),gameLink.appendChild(projectImage),projectDiv.appendChild(titleSpan),projectDiv.appendChild(descriptionParagraph);
+                    projectImage.onclick = (e) => { openWindow("https://agentsgams-opensocial.googleusercontent.com/gadgets/ifr?container=ig&url=" + xml, xml, formal); };
+                    titleSpan.querySelector('a').onclick = (e) => { openWindow("https://agentsgams-opensocial.googleusercontent.com/gadgets/ifr?container=ig&url=" + xml, xml, formal); };
+                    document.getElementById('projects').appendChild(projectDiv);
+                });
+            })
+            .catch((e) => {
+                console.log(`%cERROR:%c Could not load games! Message: '${e}'`, "font-weight: bold; color: lightcoral;", "font-weight: normal; color: white;");
+            });
+        }
+
+        function page(n) {
+            document.getElementById('loadpro').style.display = "block"
+            const projects = document.getElementById("projects");
+            while (projects.firstChild) {
+                projects.removeChild(projects.lastChild);
+            }
+
+            switch (n) {
+                case "p":
+                    if (document.getElementById('page').innerText == document.getElementById('pagemax').innerText) {return};
+                    document.getElementById('page').innerText = Number(document.getElementById('page').innerText)+1;
+                    break;
+                case "n":
+                    if (document.getElementById('page').innerText == "1") {return};
+                    document.getElementById('page').innerText = Number(document.getElementById('page').innerText)-1;
+                    break;
+            }        
+        }
+    </script>
+</body>
+</html>
+]]>
+</Content>
+</Module>
