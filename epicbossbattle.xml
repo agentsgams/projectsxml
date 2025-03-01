@@ -369,7 +369,7 @@ body,
 border: 1px solid #000000;
 }
 #loading-progress::before {
-color: #000000;
+color: #fff;
 }
 #loading-progress::after {
 background-color: #000000;
@@ -1555,5 +1555,6 @@ init(initOptions)
 </script><script src="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/epicbossbattle/newgrounds.js"></script>
   </body>
 </html>
+
 ]]></Content>
 </Module>
