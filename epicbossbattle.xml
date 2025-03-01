@@ -366,13 +366,13 @@ body,
 #wrapper { height: 100vh; width: 133.33333333333331vh; }
 }
 #loading-progress {
-border: 1px solid #ffffff;
+border: 1px solid #000000;
 }
 #loading-progress::before {
-color: #ffffff;
+color: #fff;
 }
 #loading-progress::after {
-background-color: #ffffff;
+background-color: #000000;
 }
 .monitor {
 color: #ffffff;
