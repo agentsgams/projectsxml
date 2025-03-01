@@ -9,26 +9,26 @@
     <title>Bitcoin Clicker</title>
     <!-- Search Engine -->
     <meta name="description" content="A clicker game where you can get virtual Bitcoins by clicking!">
-    <meta name="image" content="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/images/bitcoin-8bit.png">
+    <meta name="image" content="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/bitcoinclicker/images/bitcoin-8bit.png">
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="Bitcoin Clicker">
     <meta itemprop="description" content="A clicker game where you can get virtual Bitcoins by clicking!">
-    <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/images/bitcoin-8bit.png">
+    <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/bitcoinclicker/images/bitcoin-8bit.png">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Bitcoin Clicker">
     <meta name="twitter:description" content="A clicker game where you can get virtual Bitcoins by clicking!">
     <meta name="twitter:site" content="@julianYaman">
-    <meta name="twitter:image:src" content="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/images/bitcoin-8bit.png">
+    <meta name="twitter:image:src" content="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/bitcoinclicker/images/bitcoin-8bit.png">
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
     <meta name="og:title" content="Bitcoin Clicker">
     <meta name="og:description" content="A clicker game where you can get virtual Bitcoins by clicking!">
-    <meta name="og:image" content="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/images/bitcoin-8bit.png">
+    <meta name="og:image" content="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/bitcoinclicker/images/bitcoin-8bit.png">
     <meta name="og:site_name" content="Bitcoin Clicker">
     <meta name="og:type" content="website">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/bitcoinclicker/stylesheets/style.css">
 </head>
 <body>
     <div class="gameFullContent">
@@ -40,7 +40,7 @@
             <h1 class="bitcoinAmountDisplay"><span class="bitcoinAmount">0</span> Bitcoins</h1>
             <p class="satoshiAmountDisplay"><span class="satoshiAmount">0</span> Satoshi</p>
             <p class="bSecRate"><span class="bSecRateNumber">0</span> Bitcoins/sec</p>
-            <img class="bitcoin" src="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/images/bitcoin-8bit.png">
+            <img class="bitcoin" src="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/bitcoinclicker/images/bitcoin-8bit.png">
         </div>
         <div class="rightContainer buyItemContainer">
             <ul class="purchaseList">
@@ -137,8 +137,8 @@
             </ul>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/lib/jquery-3.3.1.min.js"></script>
-    <script async src="https://cdn.jsdelivr.net/gh/julianyaman/bitcoin-clicker/scripts/app.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/bitcoinclicker/lib/jquery-3.3.1.min.js"></script>
+    <script async src="https://cdn.jsdelivr.net/gh/agentsgams/projects@master/bitcoinclicker/scripts/app.js" type="text/javascript"></script>
 </body>
 </html>
 ]]></Content>
