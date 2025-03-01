@@ -9,7 +9,7 @@
         type="text/css">
     <script>
         var baseurl = "https://cdn.jsdelivr.net/gh/agentsgams/macromediaserver/"
-        var gameConfig = { swfUrl: `${baseurl}bloonstd5.swf` };
+        var gameConfig = { swfUrl: `${baseurl}bloonstd.swf` };
     </script>
 </head>
 <body>
